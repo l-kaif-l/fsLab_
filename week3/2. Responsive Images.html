@@ -1,0 +1,27 @@
+<!-- 2.1 Using the Width Property
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220201191443/logo-200x32.png" style="width:100%;">
+
+
+
+2.2 Using the Max-Width Property
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220201191443/logo-200x32.png" style="max-width:100%; height:auto;">
+
+2.3 Using the Picture Element -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Responsive Web Design</title>
+</head>
+
+<body style="text-align: center;">
+    <h1 style="color: green;">GeeksforGeeks</h1>
+    <h2>HTML picture Tag</h2>
+    <picture>
+        <source media="(min-width: 700px)" srcset="https://media.geeksforgeeks.org/wp-content/uploads/20190825000042/geeks-221.png">
+        <source media="(min-width: 450px)" srcset="https://media.geeksforgeeks.org/wp-content/uploads/20190802021607/geeks14.png">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808102629/geeks15.png" alt="GFG">
+    </picture>
+</body>
+
+</html>

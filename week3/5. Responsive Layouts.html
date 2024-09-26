@@ -1,0 +1,91 @@
+<!-- 5.1 Using Flexbox html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: flex;
+        }
+        
+        .gfg {
+            font-size: 5vw;
+            font-weight: bold;
+            color: green;
+            text-align: center;
+        }
+        
+        button {
+            width: 300px;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gfg">GeeksforGeeks</div>
+    <div class="container">
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>JavaScript</button>
+    </div>
+</body>
+
+</html>
+
+<!-- 
+5.2 Using CSS Grid html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .grid-item {
+            background-color: rgb(220, 208, 232);
+            border: 2px solid rgb(70, 54, 84);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-item">HTML</div>
+        <div class="grid-item">CSS</div>
+        <div class="grid-item">JavaScript</div>
+        <div class="grid-item">Bootstrap</div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- 5.3 Using CSS Multi-Column Layout html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            column-count: 3;
+            column-gap: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            HTML stands for HyperText Markup Language. It is used to design web pages using a markup language.
+        </p>
+    </div>
+</body>
+
+</html>
